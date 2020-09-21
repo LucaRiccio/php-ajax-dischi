@@ -15,14 +15,14 @@
       <img src="logo.png" alt="">
     </header>
 
-    <div class="container-cd">
+    <div class="container-cd">  
 
       <?php foreach ($database as $key => $cd){ ?>
         <div class="cd">
           <img src="<?php echo $cd['poster']; ?>" alt="">
           <h3><?php echo $cd['title']; ?></h3>
           <p><?php echo $cd['author']; ?></p>
-          <p><?php echo $cd['year']; ?></p>
+          <strong><?php echo $cd['year']; ?></strong>
         </div>
       <?php } ?>
     </div>

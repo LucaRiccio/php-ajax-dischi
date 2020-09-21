@@ -1,4 +1,6 @@
-* {
+@import url(https://fonts.googleapis.com/css2?family=Epilogue:wght@400;
+
+700&display=swap);* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,16 +8,22 @@
 
 body {
   background-color: #1e2d3b;
+  font-family: "Epilogue", sans-serif;
 }
 
 header {
   height: 80px;
   background-color: #2e3a46;
+  position: relative;
 }
 
 header img {
   height: 50px;
   width: 50px;
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .container-cd {
@@ -24,15 +32,26 @@ header img {
 
 .container-cd .cd {
   display: inline-block;
-  width: 30%;
-  text-align: center;
-  background-color: #2e3a46;
+  width: 25%;
   height: 400px;
-  margin-top: 20px;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  background-color: #2e3a46;
+  cursor: pointer;
+}
+
+.container-cd .cd:hover {
+  transform: scale(1.05);
+}
+
+.container-cd .cd p {
+  margin: 5px 0px;
 }
 
 .container-cd .cd img {
   width: 250px;
-  width: 250px;
+  height: 250px;
+  margin: 25px 0px;
 }
 

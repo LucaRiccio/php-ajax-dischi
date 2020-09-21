@@ -14,16 +14,16 @@
     </header>
 
     <div class="container-cd">
-      <div class="cd">
 
-      </div>
     </div>
 
     <script id="entry-template" type="text/x-handlebars-template">
-      <img src="{{poster}}" alt="">
-      <h3>{{title}}</h3>
-      <p>{{author}}</p>
-      <p>{{year}}</p>
+      <div class="cd">
+        <img src="{{poster}}" alt="">
+        <h3>{{title}}</h3>
+        <p>{{author}}</p>
+        <strong>{{year}}</strong>
+      </div>
     </script>
 
     <script src="src/app.js" charset="utf-8"></script>

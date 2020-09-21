@@ -5,7 +5,7 @@
       'title' => 'New Jersey',
       'author' => 'Bon Jovi',
       'year' => 1988,
-      'poster' => 'https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg'
+      'poster' => 'https://images-na.ssl-images-amazon.com/images/I/71rlPeoAqUL._AC_SX425_.jpg'
     ],
 
     [
@@ -33,7 +33,7 @@
       'title' => 'Brave new World',
       'author' => 'Iron Maiden',
       'year' => 2000,
-      'poster' => 'https://cdn.shopify.com/s/files/1/0024/9803/5810/products/390933-Product-0-I_3bb66c1a-c297-4755-a66b-df0d80219d1e_large.jpg'
+      'poster' => 'https://i.ebayimg.com/thumbs/images/g/WKkAAOSwArtePZjs/s-l225.jpg'
     ],
 
     [
