@@ -1,5 +1,3 @@
-// let $ = require('jquery');
-
 $(document).ready(function(){
 
   $.ajax(
@@ -14,8 +12,6 @@ $(document).ready(function(){
      }
     }
   );
-
-
 
 });
 

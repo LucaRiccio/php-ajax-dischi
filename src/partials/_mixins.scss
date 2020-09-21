@@ -1,0 +1,18 @@
+@mixin flex($direction,$justify){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}
+
+@mixin btn($bgColor, $fontSize, $colore){
+  border:0;
+  display: inline-block;
+  padding: 7px 40px;
+  background-color: $bgColor;
+  font-size:$fontSize;
+  color: $colore;
+  &:hover{
+    background-color: lighten($bgColor,10);
+    color:$colore;
+  }
+}
