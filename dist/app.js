@@ -99,6 +99,7 @@ $(document).ready(function () {
     method: "GET",
     success: function success(risposta) {
       printaData(risposta);
+      printSelect(risposta);
     },
     error: function error() {
       alert("È avvenuto un errore");
@@ -119,6 +120,26 @@ function printaData(data) {
     };
     var html = template(context);
     $('.container-cd').append(html);
+  }
+}
+
+function printSelect(data) {
+  var source = document.getElementById("entry-template").innerHTML;
+  var template = Handlebars.compile(source);
+  var arrayAuthor = [];
+
+  for (var i = 0; i < data.length; i++) {
+    if (!arrayAuthor.includes(data[i].author)) {
+      arrayAuthor.push(data[i].author);
+    }
+  }
+
+  for (var i = 0; i < arrayAuthor.lenght; i++) {
+    var context = {
+      'author': arrayAuthor[i]
+    };
+    var html = template(context);
+    $('#select-id').append(html);
   }
 }
 
